@@ -53,7 +53,7 @@ public class Curriculum_New_1_4 {
 	     // 必ず変数を使用すること
 	
 	     // 11110
-    	 System.out.println(intNum + shortNum + byteNum);
+    	 System.out.println(intNum + shortNum + byteNum + longNum);
 	     // 20.0
     	 System.out.println(floatNum + doubleNum);
 	     // a ハロー true
@@ -70,7 +70,7 @@ public class Curriculum_New_1_4 {
     	// Q5 
     	// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
     	//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
- 		int num = 20;
+ 		int num = 20; // Stringをintに変えた."20"を=>20にした
  		int num1 = 23;
  		System.out.println("ハローJAVA" + (num + num1));
  		 
