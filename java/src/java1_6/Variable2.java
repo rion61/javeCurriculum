@@ -33,6 +33,7 @@ public class Variable2 {
 		
 //		Random rnd を宣言しRandomクラスのインスタンスを初期化
 		Random rnd = new Random();
+		System.out.println("あなたの年齢を予想します。");
 		System.out.println("あなたの年齢はおそらく" + rnd.nextInt(101) + "歳ですね？");
 //		例）
 //		あなたの年齢を予想します。
