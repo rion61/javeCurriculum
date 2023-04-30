@@ -10,7 +10,7 @@
 					・
 					・
 					21
-					*/
+ */
 package java1_10;
 
 public class practice {
@@ -21,7 +21,7 @@ public class practice {
 		// i <= 10; 10回繰り返す条件式
 		//  i = i + 2 => 出力されたiに２を足していく(2回目以降)
 		for(i += 2; i < 10;  i = i + 2) {
-		// iを出力
+			// iを出力
 			System.out.println(i);
 		}
 	}
