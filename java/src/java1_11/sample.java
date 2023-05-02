@@ -30,6 +30,7 @@ public class sample {
 		default:
 		    // 他のすべてのラベルと一致しないときに実行される処理
 			System.out.println(num + "月は31日です。");
+			
 		}
 
 	}    
