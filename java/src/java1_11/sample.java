@@ -17,7 +17,7 @@ public class sample {
 
 	public static void main(String[] args) {
 		int num = 2;
-		
+
 		switch(num){
 		case 2:
 			System.out.println(num + "月は28日です。");
@@ -28,10 +28,8 @@ public class sample {
 		case 11:
 			System.out.println(num + "月は30日です。");
 		default:
-		    // 他のすべてのラベルと一致しないときに実行される処理
+			// 他のすべてのラベルと一致しないときに実行される処理
 			System.out.println(num + "月は31日です。");
-			
 		}
-
 	}    
 }
