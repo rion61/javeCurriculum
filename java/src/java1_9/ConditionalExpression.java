@@ -36,11 +36,11 @@ public class ConditionalExpression {
 		}
 //		問３）
 //		①変数 isTired を定義し、0 か 1 を代入する。（どちらを代入しても構わない。）
-		int isTired = 1;
+		int isTired = 0;
 //		②変数 study を定義し、文字列 "カリキュラム" を代入する。
 		String study = "カリキュラム";
 //		③もし変数 isTired が 0 であれば「私はとても元気です。」、そうでなければ「私は疲れています。」と表示する。
-		if(isTired == 1) {
+		if(isTired == 0) {
 			System.out.println("私はとても元気です。");
 		}else {
 			System.out.println("私は疲れています。");
@@ -49,6 +49,6 @@ public class ConditionalExpression {
 //		④もし変数 isTired が 0 であれば、変数 study を利用して「カリキュラムを続けます。」と表示する。
 		//三項演算子の書き方：
 		//条件式 ? trueの場合の戻り値 : falseの場合の戻り値
-		System.out.println(isTired == 0 ? "私はとても元気です。" : study + "を続けます。");
+		System.out.println(isTired == 0 ? study + "を続けます。"  : " " );
 	}
 }
