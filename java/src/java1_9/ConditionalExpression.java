@@ -20,7 +20,7 @@ public class ConditionalExpression {
 		String name = "Mr.ビーン.jr";
 //		int型変数 score に「0~100」までの乱数を代入して下さい。
 		Random rnd = new Random();
-		int score = rnd.nextInt(101) + 1;
+		int score = rnd.nextInt(101);
 //		もし score が 40点以下なら「〇〇さんは□□点です。もう少し頑張りましょう。」、
 //		もし score が 40点以上、60点以下なら「〇〇さんは□□点です。もう少しでした。」、
 //		もし score が 60点以上、80点以下なら「〇〇さんは□□点です。よくできました。」、
