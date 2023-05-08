@@ -53,7 +53,7 @@ public class Qes1_3 {
 			// enemyHandにランダムの0から２を代入
 			enemyHand = rum.nextInt(3);
 			// str[0]="グー"出力
-			System.out.println("自分の手は：" + str[0]);
+			System.out.println(line1 + "の手は：" + str[0]);
 			// str[enemyHand] = "グー","チョキ","パー" どれかが出力
 			System.out.println("相手の手は：" + str[enemyHand] + "\n");
 
