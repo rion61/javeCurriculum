@@ -12,16 +12,18 @@ public class Qes5 {
 				String formatStr3 = String.format("%03d", i * j);
 				// メッセージ表示
 				System.out.print(formatStr2 + "×" + formatStr + "=" + formatStr3);
-				
+
 				// 16までかけたらスキップ
 				if (j == 16) {
 					continue;
 				}
 				// メッセージ表示
 				System.out.print("||");
+				
 			}
 			//改行
 			System.out.println();
+			
 		}
 	}
 }
