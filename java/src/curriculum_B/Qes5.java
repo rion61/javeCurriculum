@@ -7,18 +7,17 @@ public class Qes5 {
 			// 左側の繰り返し処理
 			for(int j = 1; j <= 16; j++){
 				// 0埋め
-				String formatStr = String.format("%02d", i);
-				String formatStr2 = String.format("%02d", j);
-				String formatStr3 = String.format("%03d", i * j);
+				String formatStr = String.format("%02d * %02d = %03d", j, i, i * j);
+				
 				// メッセージ表示
-				System.out.print(formatStr2 + "×" + formatStr + "=" + formatStr3);
+				System.out.print(formatStr + " ");
 
 				// 16までかけたらスキップ
 				if (j == 16) {
 					continue;
 				}
 				// メッセージ表示
-				System.out.print("||");
+				System.out.print("||" + " ");
 				
 			}
 			//改行
