@@ -8,7 +8,7 @@ public class Qes5 {
 			for(int j = 1; j <= 16; j++){
 				// 0埋め
 				String formatStr = String.format("%02d * %02d = %03d", j, i, i * j);
-				
+
 				// メッセージ表示
 				System.out.print(formatStr + " ");
 
@@ -18,11 +18,11 @@ public class Qes5 {
 				}
 				// メッセージ表示
 				System.out.print("||" + " ");
-				
+
 			}
 			//改行
 			System.out.println();
-			
+
 		}
 	}
 }

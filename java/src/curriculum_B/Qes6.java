@@ -13,6 +13,10 @@ public class Qes6 {
 		//文字列を代入また文字列を分割
 		String electricAppliances[] = line1.split("、");;
 		// 変数名に文字列を順番に取り出している
+		int maxCount = 11;
+		
+		int resultDisplay;
+		
 		for (String array : electricAppliances) {
 			// 台数を表示
 			int num = rand.nextInt(12);
@@ -34,9 +38,11 @@ public class Qes6 {
 				break;
 			case "テレビ":
 			case "ディスプレイ":
-				System.out.println(array + "の残りの代数" + num +"台です\n");
+				maxCount -= num;
+					resultDisplay = (array == "ディスプレイ") ? maxCount : num;
+					System.out.println(array + "の残りの代数" + resultDisplay +"台です\n");
 				break;
-				// それ以外の時の処理
+			// それ以外の時の処理
 			default:
 				System.out.println("「その他商品」は指定の商品ではありません");
 			}
