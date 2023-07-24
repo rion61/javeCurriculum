@@ -25,6 +25,7 @@ class Person{
 		// bmi式
 		double bmi = weight / (height * height);
 		return bmi;
+		
 	}
 
 	public void print(){
@@ -32,9 +33,11 @@ class Person{
 		System.out.println("年は" + this.age + "です");
 		count++;
 		System.out.println("合計" + count + "人です");
+		
 	}
 	
 	 static void printCount(){
 		System.out.println("合計" + count + "人です");
+		
 	}
 }
