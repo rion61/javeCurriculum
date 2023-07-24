@@ -15,7 +15,7 @@ public class Curriculum_New_1_18 {
 
 		// 問3 ：引数として整数の配列を渡すと、受け取った値を順番にコンソールに出力するメソッドを作成してください
 		// 配列作成
-		int[] array =  {2,15,6,73,};
+		int[] array =  {2,15,6,73};
 		incArray(array);
 
 		// 問４：Q2をオーバーロードして引数を小数2つに変更し、引数同士を和算しコンソールに出力してください。
@@ -103,7 +103,7 @@ public class Curriculum_New_1_18 {
 		for (int i = 0; i < arrayRand.length; i++) {
 			// ランダムの数字を表示
 			System.out.println((arrayRand[i] = rand.nextInt(99) + 1) +((i + 1 == arrayRand.length)? "\n":""));
-
+			
 		}
 		// 戻り値
 		return arrayRand;
