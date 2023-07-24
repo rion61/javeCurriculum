@@ -12,7 +12,7 @@ public class Animal {
 		
 		// Q2：Dogクラスを呼び出して変数に代入し、動物の数をコンソールに出力してください。
 		// 呼び出し
-		Dog animalNumber = new Dog();
+		Dog animalNumber = new Dog(20);
 		// メッセージ表示
 		System.out.println(animalNumber.nums);
 		
