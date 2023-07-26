@@ -19,6 +19,8 @@ class Person{
 		// 体重
 		this.weight = weight;
 
+		// 人数の合計
+		count++;
 	}
 
 	public double bmi(){
@@ -32,7 +34,6 @@ class Person{
 		System.out.println("名前は" + this.name + "です");
 		System.out.println("年は" + this. age+ "です");
 		System.out.println("BMIは" + String.format("%.1f", bmi()) + "です");
-		count++;
 		System.out.println("合計" + count + "人です");
 
 	}
