@@ -19,7 +19,7 @@ public class Animal {
 		// 現在の日時を「yyyy-MM-dd H:m:s」形式で変数に代入して、コンソールに出力してください
 		Calendar cl = Calendar.getInstance();
 		// 日付設定
-		 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd" + " " + "H:m:s ");
+		 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd H:m:s ");
 	        String yearsTime = sdf.format(cl.getTime());
 	        System.out.println(yearsTime);
 	}
