@@ -19,5 +19,8 @@ public class Main {
 		System.out.println(car.getOwner());
 		System.out.println(bicycle.getOwner());
 
+		// 購入者名
+		person1.buy(car);
+		 person2.buy(bicycle);
 	}
 }
